@@ -7,6 +7,7 @@ export default class Exception extends Error {
     static USER_EXISTS = "User already exists"
     static CANNOT_REGISTER_USER="Unable to register user"
     static WRONG_EMAIL_OR_PASSWORD="Wrong email or password"
+    static WRONG_USERNAME_OR_PASSWORD="Wrong username or password"
 
     constructor(message,){
         super(message);
